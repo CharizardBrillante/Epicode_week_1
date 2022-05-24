@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Blog Epicode">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Epicode</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <figure>
+                <img src="img/logo.svg" alt="Epicode logo">
+                <figcaption><strong>Epicode - Il blog dei developers</strong></figcaption>
+            </figure>
+        </header>
+
+        <nav>
+            <ul type="none" class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articoli.html">Articoli</a></li>
+                <li><a href="job.html">Job</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="principale">
+                <article>
+                    <h2>Come creare un template per i post</h2>
+                    <h4>
+                        di <a href="mario_rossi.html"><i>Mario Rossi</i></a>
+                        - pubblicato il 25-10-2020
+                    </h4>
+                    <p>
+                        La prima cosa da fare è suddividere in blocchi logici la pagina,
+                        identificando le parti comuni da applicare a tutte le pagine.
+                    </p>
+                    <p>
+                        Le varie aree saranno quindi suddivise in:
+                        <ul>
+                            <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+                            <li>Contenuti cdntrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)</li>
+                            <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
+                            <li>Formattazione del codice</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <a href="sviluppo_pagina_web.html" target="_blank"><i>Continua a leggere</i></a>
+                    </p>
+                </article>
+            </section>
+
+            <section id="secondari">
+                <h3>Altri articoli</h3>
+                    <section>
+                        <ul type="none">
+                        <li><h4><a href="validare_il_codice_html.html">Validare il codice HTML</h4></a></li>
+                        <li>Categoria: <a href="develop.html">Develop</a></p></li>
+                        <li>Data: 18-9-2020</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <ul type="none">
+                        <li><h4><a href="correggere_la_sintassi.html">Correggere la sintassi</h4></a></li>
+                        <li>Categoria: <a href="develop.html">Develop</a></p></li>
+                        <li>Data: 16-9-2020</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <ul type="none">
+                        <li><h4><a href="meno_kb_nella_pagina.html">Meno Kb nella pagina</h4></a></li>
+                        <li>Categoria: <a href="ottimizzazione.html">Ottimizzazione</a></p></li>
+                        <li>Data: 30-9-2020</li>
+                        </ul>
+                    </section>
+    
+            </section>
+
+        </main>
+
+        <aside>
+            <div class="newsletter_box">
+                <p>
+                    Vuoi rimanere aggiornato su altre novità del blog?<br>Iscriviti alla nostra newsletter!
+                    <form>
+                        <label for="email">Indirizzo email: </label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        <label for="privacy">Acconsento al trattamento dei dati </label>
+                        <input type="checkbox" name="privacy" id="privacy">
+                        <br>
+                        <button type="submit">Iscriviti</button>
+                    </form>
+                </p>
+            </div>
+        </aside>
+
+        <footer>
+            <p>Blog Epicode &copy;2021</p>
+            <small>
+                Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - 
+                Milano. P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a>
+            </small>
+        </footer>
+    </div>    
+</body>
+</html>
