@@ -1,38 +1,35 @@
 /* IMPOSTAZIONI GENERALI */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;   
+}
 
 /* HEADER */
 header {
     background-color: #00A0C6;
-    padding: 10px;
     text-transform: uppercase;
     text-align: center;
     padding: 1em;
     font-family: 'Raleway', sans-serif;
 }
-
 header h1 {
     color:white;
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
     line-height: 1.5em;
-    margin-bottom: 2em;
-    
+    margin-bottom: 2em; 
 }
-
 header h1 span {
     background-color: white;
-    color:#00A0C6;
-    
+    color:#00A0C6;    
+}
+header h2 {
+    font-size: 1rem;
 }
 
 /* MAIN */
-main {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    font-size: 1.1em;
-    line-height: 1.5em;
-    padding: 20px;
-}
+main {padding: 20px;}
 
 /* ELEMENTI NEL MAIN */
 
@@ -40,17 +37,14 @@ main section{
     margin-top: 2em;
     margin-bottom: 3em;
 }
-
 main hr {
     border-style: dashed;
 }
-
 main h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 30px;
 }
-
 main h2 {
     text-align: center;
     color: #027794;
@@ -60,31 +54,15 @@ main h2 {
     font-size: 1.3em;
     margin: 1em;
 }
-
-main p {
-    margin-bottom: 20px;
-}
-main a {
-    color:#027794;
-}
-
-main a:visited{
-    color:rgb(170, 41, 41);
-}
-
-main b {
-    font-weight: bold;
-}
-
-main strong {
-    color:#00A0C6;
-}
-
+main p {margin-bottom: 20px;}
+main a {color:#027794;}
+main a:visited{color:rgb(170, 41, 41);}
+main b {font-weight: bold;}
+main strong {color:#00A0C6;}
 main mark {
     background-color:#027794;
     color: white;
 }
-
 main figure img{
     border: 1px solid #e3e3e3;
     padding: 10px;
@@ -93,15 +71,8 @@ main figure img{
     margin-bottom: 10px;
     display:block;
 }
-
-main figure figcaption{
-    text-align: center;
-}
-
-main address {
-    margin: 20px 0px 20px 0px;
-}
-
+main figure figcaption{text-align: center;}
+main address {margin: 20px 0px 20px 0px;}
 main blockquote {
     display: block;
     text-align: center;
@@ -112,14 +83,8 @@ main blockquote {
     border-radius: 10px;
     font-style: italic;
 }
-
-main ul {
-    margin-left: 15%;
-}
-
-main dd {
-    margin-left: 10%;
-}
+main ul {margin-left: 15%;}
+main dd {margin-left: 10%;}
 
 /* FOOTER */
 
@@ -129,27 +94,15 @@ footer {
     border-top: 5px solid #00A0C6;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:0.9rem;
     line-height: 1.5em;
     padding: 0px 10px 0px 10px;
 }
-
 footer p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-footer kbd {
-    color:yellow;
-}
-footer p small{
-    color:#a0a0a0;
-    
-}
-
-footer a {
-    color:rgb(199, 69, 69);
-}
-
-footer hr {
-    border: none;
-}
+footer kbd {color:yellow;}
+footer p small{color:#a0a0a0;}
+footer a {color:rgb(199, 69, 69);}
+footer hr {border: none;}
