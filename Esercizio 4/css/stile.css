@@ -1,0 +1,217 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url("/img/sfondo.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+hr {
+    display: none;
+}
+
+strong {
+    font-weight: bold;
+    color:purple;
+}
+
+a{
+    color:#4fa7cf;
+    font-weight: bold;
+}
+
+a:visited {
+    color:rgb(163, 0, 163);
+    font-weight: bold;
+}
+/* HEADER */
+header {
+    background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:white;
+    box-shadow: 1px 5px 5px #2e2e2e;
+}
+
+header div img {
+    margin: 1em;
+}
+header div p {
+    margin: 1em;
+}
+header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 1em;
+    line-height: 2.1rem;
+}
+
+header nav li a{
+    color:white;
+}
+header nav li a::before {
+    content: "\22c6\0020";   
+}
+header nav li a::after {
+    content: "\22c6\0020";   
+}
+
+/* MAIN */
+
+main {
+    background-color:aliceblue;
+    margin: 1.2em;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 5px #2e2e2e;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+main article h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5em 0em 1.5em 0em;
+    line-height: 3rem;
+    text-align: left;
+}
+
+main article h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1.5em 0em 0.75em 0em;
+    line-height: 3rem;
+    text-align: left;
+}
+
+main article p:nth-child(2){
+    opacity: 0.5;
+    margin: 1em 0em 1em 0em;
+    font-size: 1.1rem;
+}
+
+main p {
+    margin: 1em 0em 1em 0em;
+}
+
+main ul {
+    margin: 0em 1.5em 0em 2.5em;
+    text-align: left;;
+}
+
+main ol {
+    margin: 0em 1.5em 0em 2.5em;
+    text-align: left;;
+}
+
+main code {
+    background-color: #cccccc;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+main iframe {
+    border-radius: 10px;
+}
+
+section#newsletter {
+    background-color: #cccccc;
+    padding: 0em 1em 1em 1em;
+    margin-bottom: 2em;    
+}
+
+section#newsletter h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* TABELLE */
+
+table {
+    border-bottom: 2px solid #3f6bca;
+    margin-bottom: 1em;
+}
+table, table th, table td{
+    text-align: center;
+    padding: 0.5em;
+}
+
+table caption{
+    font-weight: bold;
+    font-style: italic;
+}
+
+table th {
+    background-color: #3f6bca;
+    color:aliceblue;
+}
+
+table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+table tr:hover {
+    background-color: rgb(149, 149, 149);
+}
+
+/* FORM */
+
+
+
+form fieldset #user_email{
+    border-bottom: 2px dotted #3f6bca;
+}
+
+form button {
+    background-color: #3f6bca;
+    color:aliceblue;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0em 1em 0em;
+}
+
+aside div {
+    background-color: #cccccc;
+    padding: 1em;
+    border: 1px solid grey;
+    margin-bottom: 1em;
+}
+
+aside div p {
+    margin-top: 0em;
+}
+aside div p:nth-child(3) {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 1em;
+    opacity: 0.9;
+}
+/* FOOTER */
+footer {
+    background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(5,85,103,1) 68%);
+    margin: 1.6em;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 5px #2e2e2e;
+    color: aliceblue; 
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer address {
+    margin: 1em 0em 1em 0em;
+}
